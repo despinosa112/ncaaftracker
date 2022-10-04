@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84646E028EBE43C00192CB4 /* NCAAFTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84646DF28EBE43C00192CB4 /* NCAAFTrackerApp.swift */; };
+		E84646E228EBE43C00192CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84646E128EBE43C00192CB4 /* ContentView.swift */; };
+		E84646E428EBE43E00192CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84646E328EBE43E00192CB4 /* Assets.xcassets */; };
+		E84646E728EBE43E00192CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84646E628EBE43E00192CB4 /* Preview Assets.xcassets */; };
+		E84646F128EBE43F00192CB4 /* NCAAFTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84646F028EBE43F00192CB4 /* NCAAFTrackerTests.swift */; };
+		E84646FB28EBE43F00192CB4 /* NCAAFTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84646FA28EBE43F00192CB4 /* NCAAFTrackerUITests.swift */; };
+		E84646FD28EBE43F00192CB4 /* NCAAFTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84646FC28EBE43F00192CB4 /* NCAAFTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84646ED28EBE43F00192CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84646D428EBE43C00192CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84646DB28EBE43C00192CB4;
+			remoteInfo = NCAAFTracker;
+		};
+		E84646F728EBE43F00192CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84646D428EBE43C00192CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84646DB28EBE43C00192CB4;
+			remoteInfo = NCAAFTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84646DC28EBE43C00192CB4 /* NCAAFTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCAAFTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84646DF28EBE43C00192CB4 /* NCAAFTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCAAFTrackerApp.swift; sourceTree = "<group>"; };
+		E84646E128EBE43C00192CB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E84646E328EBE43E00192CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E84646E628EBE43E00192CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E84646EC28EBE43F00192CB4 /* NCAAFTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCAAFTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84646F028EBE43F00192CB4 /* NCAAFTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCAAFTrackerTests.swift; sourceTree = "<group>"; };
+		E84646F628EBE43F00192CB4 /* NCAAFTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCAAFTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84646FA28EBE43F00192CB4 /* NCAAFTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCAAFTrackerUITests.swift; sourceTree = "<group>"; };
+		E84646FC28EBE43F00192CB4 /* NCAAFTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCAAFTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84646D928EBE43C00192CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84646E928EBE43F00192CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84646F328EBE43F00192CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84646D328EBE43C00192CB4 = {
+			isa = PBXGroup;
+			children = (
+				E84646DE28EBE43C00192CB4 /* NCAAFTracker */,
+				E84646EF28EBE43F00192CB4 /* NCAAFTrackerTests */,
+				E84646F928EBE43F00192CB4 /* NCAAFTrackerUITests */,
+				E84646DD28EBE43C00192CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84646DD28EBE43C00192CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84646DC28EBE43C00192CB4 /* NCAAFTracker.app */,
+				E84646EC28EBE43F00192CB4 /* NCAAFTrackerTests.xctest */,
+				E84646F628EBE43F00192CB4 /* NCAAFTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84646DE28EBE43C00192CB4 /* NCAAFTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E84646DF28EBE43C00192CB4 /* NCAAFTrackerApp.swift */,
+				E84646E128EBE43C00192CB4 /* ContentView.swift */,
+				E84646E328EBE43E00192CB4 /* Assets.xcassets */,
+				E84646E528EBE43E00192CB4 /* Preview Content */,
+			);
+			path = NCAAFTracker;
+			sourceTree = "<group>";
+		};
+		E84646E528EBE43E00192CB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E84646E628EBE43E00192CB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E84646EF28EBE43F00192CB4 /* NCAAFTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84646F028EBE43F00192CB4 /* NCAAFTrackerTests.swift */,
+			);
+			path = NCAAFTrackerTests;
+			sourceTree = "<group>";
+		};
+		E84646F928EBE43F00192CB4 /* NCAAFTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E84646FA28EBE43F00192CB4 /* NCAAFTrackerUITests.swift */,
+				E84646FC28EBE43F00192CB4 /* NCAAFTrackerUITestsLaunchTests.swift */,
+			);
+			path = NCAAFTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84646DB28EBE43C00192CB4 /* NCAAFTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E846470028EBE43F00192CB4 /* Build configuration list for PBXNativeTarget "NCAAFTracker" */;
+			buildPhases = (
+				E84646D828EBE43C00192CB4 /* Sources */,
+				E84646D928EBE43C00192CB4 /* Frameworks */,
+				E84646DA28EBE43C00192CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCAAFTracker;
+			productName = NCAAFTracker;
+			productReference = E84646DC28EBE43C00192CB4 /* NCAAFTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84646EB28EBE43F00192CB4 /* NCAAFTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E846470328EBE43F00192CB4 /* Build configuration list for PBXNativeTarget "NCAAFTrackerTests" */;
+			buildPhases = (
+				E84646E828EBE43F00192CB4 /* Sources */,
+				E84646E928EBE43F00192CB4 /* Frameworks */,
+				E84646EA28EBE43F00192CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84646EE28EBE43F00192CB4 /* PBXTargetDependency */,
+			);
+			name = NCAAFTrackerTests;
+			productName = NCAAFTrackerTests;
+			productReference = E84646EC28EBE43F00192CB4 /* NCAAFTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E84646F528EBE43F00192CB4 /* NCAAFTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E846470628EBE43F00192CB4 /* Build configuration list for PBXNativeTarget "NCAAFTrackerUITests" */;
+			buildPhases = (
+				E84646F228EBE43F00192CB4 /* Sources */,
+				E84646F328EBE43F00192CB4 /* Frameworks */,
+				E84646F428EBE43F00192CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84646F828EBE43F00192CB4 /* PBXTargetDependency */,
+			);
+			name = NCAAFTrackerUITests;
+			productName = NCAAFTrackerUITests;
+			productReference = E84646F628EBE43F00192CB4 /* NCAAFTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84646D428EBE43C00192CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E84646DB28EBE43C00192CB4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E84646EB28EBE43F00192CB4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E84646DB28EBE43C00192CB4;
+					};
+					E84646F528EBE43F00192CB4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E84646DB28EBE43C00192CB4;
+					};
+				};
+			};
+			buildConfigurationList = E84646D728EBE43C00192CB4 /* Build configuration list for PBXProject "NCAAFTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84646D328EBE43C00192CB4;
+			productRefGroup = E84646DD28EBE43C00192CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84646DB28EBE43C00192CB4 /* NCAAFTracker */,
+				E84646EB28EBE43F00192CB4 /* NCAAFTrackerTests */,
+				E84646F528EBE43F00192CB4 /* NCAAFTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84646DA28EBE43C00192CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84646E728EBE43E00192CB4 /* Preview Assets.xcassets in Resources */,
+				E84646E428EBE43E00192CB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84646EA28EBE43F00192CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84646F428EBE43F00192CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84646D828EBE43C00192CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84646E228EBE43C00192CB4 /* ContentView.swift in Sources */,
+				E84646E028EBE43C00192CB4 /* NCAAFTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84646E828EBE43F00192CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84646F128EBE43F00192CB4 /* NCAAFTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84646F228EBE43F00192CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84646FB28EBE43F00192CB4 /* NCAAFTrackerUITests.swift in Sources */,
+				E84646FD28EBE43F00192CB4 /* NCAAFTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84646EE28EBE43F00192CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84646DB28EBE43C00192CB4 /* NCAAFTracker */;
+			targetProxy = E84646ED28EBE43F00192CB4 /* PBXContainerItemProxy */;
+		};
+		E84646F828EBE43F00192CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84646DB28EBE43C00192CB4 /* NCAAFTracker */;
+			targetProxy = E84646F728EBE43F00192CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E84646FE28EBE43F00192CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E84646FF28EBE43F00192CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E846470128EBE43F00192CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NCAAFTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.NCAAFTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E846470228EBE43F00192CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NCAAFTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.NCAAFTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E846470428EBE43F00192CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.NCAAFTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCAAFTracker.app/NCAAFTracker";
+			};
+			name = Debug;
+		};
+		E846470528EBE43F00192CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.NCAAFTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCAAFTracker.app/NCAAFTracker";
+			};
+			name = Release;
+		};
+		E846470728EBE43F00192CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.NCAAFTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NCAAFTracker;
+			};
+			name = Debug;
+		};
+		E846470828EBE43F00192CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.NCAAFTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NCAAFTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84646D728EBE43C00192CB4 /* Build configuration list for PBXProject "NCAAFTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84646FE28EBE43F00192CB4 /* Debug */,
+				E84646FF28EBE43F00192CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E846470028EBE43F00192CB4 /* Build configuration list for PBXNativeTarget "NCAAFTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E846470128EBE43F00192CB4 /* Debug */,
+				E846470228EBE43F00192CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E846470328EBE43F00192CB4 /* Build configuration list for PBXNativeTarget "NCAAFTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E846470428EBE43F00192CB4 /* Debug */,
+				E846470528EBE43F00192CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E846470628EBE43F00192CB4 /* Build configuration list for PBXNativeTarget "NCAAFTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E846470728EBE43F00192CB4 /* Debug */,
+				E846470828EBE43F00192CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84646D428EBE43C00192CB4 /* Project object */;
+}
