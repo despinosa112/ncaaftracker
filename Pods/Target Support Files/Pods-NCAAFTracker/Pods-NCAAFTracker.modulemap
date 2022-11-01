@@ -1,0 +1,6 @@
+framework module Pods_NCAAFTracker {
+  umbrella header "Pods-NCAAFTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

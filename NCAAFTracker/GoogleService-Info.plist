@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>568369503025-us4va9i8755l4isencbs9tb2t5am5dgq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.568369503025-us4va9i8755l4isencbs9tb2t5am5dgq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCogXeT_M79cgZF2hZg1mP2f9mqm9HmTkI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>568369503025</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.despinosa112.NCAAFTracker</string>
+	<key>PROJECT_ID</key>
+	<string>ncaaftracker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ncaaftracker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:568369503025:ios:0e9a78ee7b12bee337ee10</string>
+</dict>
+</plist>
