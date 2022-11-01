@@ -104,4 +104,7 @@ struct Team: Codable, Identifiable {
     }
     
     var games: [Game]?
+    
+    var strengthOfScheduleScore: Int? //Total Inverse Rankings
+    var strengthOfScheduleRank: Int?
 }

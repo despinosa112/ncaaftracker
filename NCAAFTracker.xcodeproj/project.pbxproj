@@ -28,6 +28,7 @@
 		E8075211290B866600E01107 /* VersionSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075210290B866600E01107 /* VersionSelectorView.swift */; };
 		E8075213290EE8AB00E01107 /* GamesFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075212290EE8AB00E01107 /* GamesFilter.swift */; };
 		E8075215290EEAAF00E01107 /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075214290EEAAF00E01107 /* DataAPI.swift */; };
+		E80752172911B4E300E01107 /* TeamDetailLineItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80752162911B4E300E01107 /* TeamDetailLineItemsView.swift */; };
 		E816018B28F37C090030C346 /* NCAAFTrackerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816018A28F37C090030C346 /* NCAAFTrackerAPI.swift */; };
 		E816018E28F37E800030C346 /* ConferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816018D28F37E800030C346 /* ConferencesViewModel.swift */; };
 		E816019128F37EAA0030C346 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816019028F37EAA0030C346 /* Conference.swift */; };
@@ -103,6 +104,7 @@
 		E8075210290B866600E01107 /* VersionSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSelectorView.swift; sourceTree = "<group>"; };
 		E8075212290EE8AB00E01107 /* GamesFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesFilter.swift; sourceTree = "<group>"; };
 		E8075214290EEAAF00E01107 /* DataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
+		E80752162911B4E300E01107 /* TeamDetailLineItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailLineItemsView.swift; sourceTree = "<group>"; };
 		E816018A28F37C090030C346 /* NCAAFTrackerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCAAFTrackerAPI.swift; sourceTree = "<group>"; };
 		E816018D28F37E800030C346 /* ConferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesViewModel.swift; sourceTree = "<group>"; };
 		E816019028F37EAA0030C346 /* Conference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				E81601A828F5B22A0030C346 /* AutoCompleteTeamView.swift */,
 				E82EF5EB28F7A90900026964 /* RankerView.swift */,
 				E80751F728FF620800E01107 /* TeamDetailView.swift */,
+				E80752162911B4E300E01107 /* TeamDetailLineItemsView.swift */,
 				E8075203290053F100E01107 /* LineItemView.swift */,
 				E8075210290B866600E01107 /* VersionSelectorView.swift */,
 			);
@@ -592,6 +595,7 @@
 				E807520229004CF900E01107 /* TeamsFilter.swift in Sources */,
 				E816019428F380CF0030C346 /* Team.swift in Sources */,
 				E80751FE28FF691200E01107 /* DataFormatter.swift in Sources */,
+				E80752172911B4E300E01107 /* TeamDetailLineItemsView.swift in Sources */,
 				E816018E28F37E800030C346 /* ConferencesViewModel.swift in Sources */,
 				E816019628F3CC720030C346 /* ConferencesView.swift in Sources */,
 				E81601A528F4D4950030C346 /* AddGameView.swift in Sources */,
