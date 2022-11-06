@@ -23,12 +23,16 @@ struct TeamDetailLineItemsView: View {
             LineItemView(key: "Total FCS Losses:", value: team.totalFCSLossesStr)
             //LineItemView(key: "FBS Loss Opponent Ids:", value: team.fbsLossOpponentIdsStr)
             LineItemView(key: "Total Losses Of FBS Loss Opponents:", value: team.totalLosesOfFBSLossOpponentsStr)
+            LineItemView(key: "Total Points Scored:", value: String(team.totalPointsScored ?? 0))
+            LineItemView(key: "Total Points Allowed:", value: String(team.totalPointsAllowed ?? 0))
+
+
         }
     }
 }
 
 struct TeamDetailLineItemsView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamDetailLineItemsView(team: Team.init(id: "1", name: "OhioState", conId: nil, totalWins: nil, totalLosses: nil, fbsDefeatedOpponentIds: nil, totalWinsOfFBSDefeatedOpponents: nil, ranking: nil, scoreDifferential: nil))
+        TeamDetailLineItemsView(team: Team.init(id: "1", name: "OhioState", conId: nil, totalWins: nil, totalLosses: nil, fbsDefeatedOpponentIds: nil, totalWinsOfFBSDefeatedOpponents: nil, ranking: nil))
     }
 }

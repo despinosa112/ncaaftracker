@@ -37,6 +37,18 @@ class TeamsSorter: NSObject {
                 return lhsRanking > rhsRanking
             case 2:
                 return lhsSOSRank < rhsSOSRank
+            case 3:
+                let lhsPPGScored: Double = lhs.ppgScored ?? 0
+                let rhsPPGScored: Double = rhs.ppgScored ?? 0
+                return lhsPPGScored > rhsPPGScored
+            case 4:
+                let lhsPPGSAllowed: Double = lhs.ppgAllowed ?? 0
+                let rhsPPGAllowed: Double = rhs.ppgAllowed ?? 0
+                return lhsPPGSAllowed < rhsPPGAllowed
+            case 5:
+                let lhsScoreDifferential: Int = lhs.scoreDifferential ?? 0
+                let rhsScoreDifferential: Int = rhs.scoreDifferential ?? 0
+                return lhsScoreDifferential > rhsScoreDifferential
             default:
                 return lhsRanking < rhsRanking
             }

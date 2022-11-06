@@ -30,6 +30,6 @@ struct TeamDetailView: View {
 
 struct TeamDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamDetailView(team: Team.init(id: "1", name: "OhioState", conId: nil, totalWins: nil, totalLosses: nil, fbsDefeatedOpponentIds: nil, totalWinsOfFBSDefeatedOpponents: nil, ranking: nil, scoreDifferential: nil))
+        TeamDetailView(team: Team.init(id: "1", name: "OhioState", conId: nil, totalWins: nil, totalLosses: nil, fbsDefeatedOpponentIds: nil, totalWinsOfFBSDefeatedOpponents: nil, ranking: nil))
     }
 }

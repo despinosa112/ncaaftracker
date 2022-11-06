@@ -29,7 +29,12 @@ class DataFormatter: NSObject {
     public func formatData(conferences: [Conference], teams: [Team], weeklyGames: [WeeklyGames]){
         let formattedWeeklyGames = self.returnMappedWeeklyGames(teams: teams, weeklyGames: weeklyGames)
         let teamsWithGames = self.returnTeamsWithGames(teams: teams, weeklyGames: formattedWeeklyGames)
-        let formattedTeams = returnTeamsWithStengthOfScheduleRank(teams: returnTeamsWithStengthOfScheduleScore(teams: Ranker.init(teams: teamsWithGames, weeklyGames: formattedWeeklyGames).returnRankedTeams()))
+        
+        let rankedTeams = Ranker.init(teams: teamsWithGames, weeklyGames: formattedWeeklyGames).returnRankedTeams()
+        let teamsWithStrengthOfScheduleScore = returnTeamsWithStengthOfScheduleScore(teams: rankedTeams)
+        let teamsWithStrengthOfScheduleRank = returnTeamsWithStengthOfScheduleRank(teams: teamsWithStrengthOfScheduleScore)
+        let formattedTeams = teamsWithStrengthOfScheduleRank
+        
         let formattedConferences = ConferenceConverter.addTeamsToConference(conferences: conferences, teams: formattedTeams)
 
         self.formattedTeams = formattedTeams
@@ -83,8 +88,11 @@ class DataFormatter: NSObject {
     
 }
 
+
+
+//Functions for strength of schedule
 extension DataFormatter {
-    //Functions for strength of schedule
+
     private func returnTeamsWithStengthOfScheduleScore(teams: [Team]) -> [Team]{
         var teamsWithScheduleScore = [Team]()
         for team in teams {
@@ -146,4 +154,11 @@ extension DataFormatter {
         }
         return teamsWithStrengthOfScheduleRank
     }
+}
+
+//Functions for Highest and Lowest Scoring Teams
+extension DataFormatter {
+    
+    
+    //return
 }

@@ -23,7 +23,6 @@ struct RankerView: View {
                     Picker("Sort Type", selection: $rankerViewModel.sortType) {
                         Text("Best").tag(0)
                         Text("Worst").tag(1)
-                        Text("SoS").tag(2)
                     }
                     .pickerStyle(.segmented)
                     .padding()
@@ -40,11 +39,6 @@ struct RankerView: View {
                                             Text(". ").bold()
                                             Text(team.name ?? "UNKNOWN").bold()
                                             Text(String(team.rankingScore ?? 0)).fontWeight(.light)
-                                            Spacer()
-                                        }
-                                        HStack {
-                                            Text("Strength Of Schedule").font(.caption)
-                                            Text(String(team.strengthOfScheduleRank ?? 0)).font(.caption)
                                             Spacer()
                                         }
                                     }.frame(height: 50)
