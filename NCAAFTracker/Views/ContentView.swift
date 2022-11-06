@@ -29,6 +29,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Games", systemImage: "square.and.pencil")
                 }
+            AdvancedStatsView(advancedStatsViewModel: AdvancedStatsViewModel())
+                .tabItem {
+                    Label("Advanced Stats", systemImage: "square.and.pencil")
+                }
             AddGameView()
                 .tabItem {
                     Label("Add Game", systemImage: "square.and.pencil")

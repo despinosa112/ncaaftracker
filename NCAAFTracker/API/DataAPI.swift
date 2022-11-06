@@ -42,7 +42,6 @@ class DataAPI: NSObject {
             weeklyGames.games = GamesFilter.returnUpsets(games: weeklyGames.games ?? [Game]())
             weeklyGamesUpsets.append(weeklyGames)
         }
-        print("-de-weeklyGamesUpsets : \(weeklyGamesUpsets)")
         return weeklyGamesUpsets
     }
     

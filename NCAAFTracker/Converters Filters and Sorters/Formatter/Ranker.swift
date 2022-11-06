@@ -52,7 +52,8 @@ class Ranker: NSObject {
                 var teamWith00Record = team
                 teamWith00Record.totalWins = 0
                 teamWith00Record.totalLosses = 0
-                teamWith00Record.scoreDifferential = 0
+                teamWith00Record.totalPointsAllowed = 0
+                teamWith00Record.totalPointsScored = 0
                 teamWith00Record.fbsDefeatedOpponentIds = [Int]()
                 teamWith00Record.totalWinsOfFBSDefeatedOpponents = 0
                 teamWith00Record.totalFCSLosses = 0
@@ -68,12 +69,13 @@ class Ranker: NSObject {
     static private func returnTeamsMapWithRankingData(games: [Game], teamsMap: [Int: Team]) -> [Int: Team]{
         var mutatingTeamsMap = teamsMap
         for game in games {
-            let scoreDifference = game.scoreDifference
+            //let scoreDifference = game.scoreDifference
             
 
             if let winnerId = game.winnerId, let loserId = game.loserId {
                 mutatingTeamsMap[winnerId]?.totalWins! += 1
-                mutatingTeamsMap[winnerId]?.scoreDifferential! += scoreDifference ?? 0
+                //mutatingTeamsMap[winnerId]?.scoreDifferential! += scoreDifference ?? 0
+                //mutatingTeamsMap[winnerId]?.totalPointsScored += game.aScore
                 if( loserId != 0){
                     mutatingTeamsMap[winnerId]?.fbsDefeatedOpponentIds?.append(loserId)
                 }
@@ -84,10 +86,21 @@ class Ranker: NSObject {
                 if (loserId != 0 && winnerId != 0){
                     mutatingTeamsMap[loserId]?.fbsLossOpponentIds?.append(winnerId)
                 }
+                if (winnerId == game.a){
+                    mutatingTeamsMap[winnerId]?.totalPointsScored! += game.aScore!
+                    mutatingTeamsMap[winnerId]?.totalPointsAllowed! += game.bScore!
+                    mutatingTeamsMap[loserId]?.totalPointsScored! += game.bScore!
+                    mutatingTeamsMap[loserId]?.totalPointsAllowed! += game.aScore!
+                } else if (winnerId == game.b) {
+                    mutatingTeamsMap[winnerId]?.totalPointsScored! += game.bScore!
+                    mutatingTeamsMap[winnerId]?.totalPointsAllowed! += game.aScore!
+                    mutatingTeamsMap[loserId]?.totalPointsScored! += game.aScore!
+                    mutatingTeamsMap[loserId]?.totalPointsAllowed! += game.bScore!
+                }
                 
                 
                 mutatingTeamsMap[loserId]?.totalLosses! += 1
-                mutatingTeamsMap[loserId]?.scoreDifferential! -= scoreDifference ?? 0
+                //mutatingTeamsMap[loserId]?.scoreDifferential! -= scoreDifference ?? 0
                 
                 
             }

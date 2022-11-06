@@ -28,6 +28,9 @@
 		E8075211290B866600E01107 /* VersionSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075210290B866600E01107 /* VersionSelectorView.swift */; };
 		E8075213290EE8AB00E01107 /* GamesFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075212290EE8AB00E01107 /* GamesFilter.swift */; };
 		E8075215290EEAAF00E01107 /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075214290EEAAF00E01107 /* DataAPI.swift */; };
+		E80752172911B4E300E01107 /* TeamDetailLineItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80752162911B4E300E01107 /* TeamDetailLineItemsView.swift */; };
+		E8075219291453D700E01107 /* AdvancedStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075218291453D600E01107 /* AdvancedStatsView.swift */; };
+		E80752222914564D00E01107 /* AdvancedStatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80752212914564D00E01107 /* AdvancedStatsViewModel.swift */; };
 		E816018B28F37C090030C346 /* NCAAFTrackerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816018A28F37C090030C346 /* NCAAFTrackerAPI.swift */; };
 		E816018E28F37E800030C346 /* ConferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816018D28F37E800030C346 /* ConferencesViewModel.swift */; };
 		E816019128F37EAA0030C346 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816019028F37EAA0030C346 /* Conference.swift */; };
@@ -103,6 +106,9 @@
 		E8075210290B866600E01107 /* VersionSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSelectorView.swift; sourceTree = "<group>"; };
 		E8075212290EE8AB00E01107 /* GamesFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesFilter.swift; sourceTree = "<group>"; };
 		E8075214290EEAAF00E01107 /* DataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
+		E80752162911B4E300E01107 /* TeamDetailLineItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailLineItemsView.swift; sourceTree = "<group>"; };
+		E8075218291453D600E01107 /* AdvancedStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedStatsView.swift; sourceTree = "<group>"; };
+		E80752212914564D00E01107 /* AdvancedStatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedStatsViewModel.swift; sourceTree = "<group>"; };
 		E816018A28F37C090030C346 /* NCAAFTrackerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCAAFTrackerAPI.swift; sourceTree = "<group>"; };
 		E816018D28F37E800030C346 /* ConferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesViewModel.swift; sourceTree = "<group>"; };
 		E816019028F37EAA0030C346 /* Conference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
@@ -189,6 +195,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E807521A2914543100E01107 /* Rankings */ = {
+			isa = PBXGroup;
+			children = (
+				E82EF5EB28F7A90900026964 /* RankerView.swift */,
+			);
+			path = Rankings;
+			sourceTree = "<group>";
+		};
+		E807521B2914544100E01107 /* Conferences */ = {
+			isa = PBXGroup;
+			children = (
+				E816019528F3CC720030C346 /* ConferencesView.swift */,
+			);
+			path = Conferences;
+			sourceTree = "<group>";
+		};
+		E807521C2914545800E01107 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				E80751FB28FF66AA00E01107 /* GameListItem.swift */,
+				E81601A128F3D0430030C346 /* GamesView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		E807521D2914548D00E01107 /* Add Game */ = {
+			isa = PBXGroup;
+			children = (
+				E81601A428F4D4950030C346 /* AddGameView.swift */,
+				E81601A828F5B22A0030C346 /* AutoCompleteTeamView.swift */,
+			);
+			path = "Add Game";
+			sourceTree = "<group>";
+		};
+		E807521E2914549400E01107 /* Advanced Stats */ = {
+			isa = PBXGroup;
+			children = (
+				E8075218291453D600E01107 /* AdvancedStatsView.swift */,
+			);
+			path = "Advanced Stats";
+			sourceTree = "<group>";
+		};
+		E807521F291454CE00E01107 /* Team Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E8075203290053F100E01107 /* LineItemView.swift */,
+				E80752162911B4E300E01107 /* TeamDetailLineItemsView.swift */,
+				E80751F728FF620800E01107 /* TeamDetailView.swift */,
+			);
+			path = "Team Detail";
+			sourceTree = "<group>";
+		};
+		E8075220291454F900E01107 /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				E8075210290B866600E01107 /* VersionSelectorView.swift */,
+			);
+			path = Version;
+			sourceTree = "<group>";
+		};
+		E807522329145CDD00E01107 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				E80751FD28FF691200E01107 /* DataFormatter.swift */,
+				E80751FF290039D800E01107 /* Ranker.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
 		E816018928F37BDC0030C346 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +282,7 @@
 				E81601A628F4D54C0030C346 /* AddGameViewModel.swift */,
 				E81601AA28F5B2580030C346 /* AutoCompleteTeamViewModel.swift */,
 				E82EF5E928F7A85700026964 /* RankerViewModel.swift */,
+				E80752212914564D00E01107 /* AdvancedStatsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -227,15 +303,13 @@
 			isa = PBXGroup;
 			children = (
 				E84646E128EBE43C00192CB4 /* ContentView.swift */,
-				E816019528F3CC720030C346 /* ConferencesView.swift */,
-				E81601A128F3D0430030C346 /* GamesView.swift */,
-				E80751FB28FF66AA00E01107 /* GameListItem.swift */,
-				E81601A428F4D4950030C346 /* AddGameView.swift */,
-				E81601A828F5B22A0030C346 /* AutoCompleteTeamView.swift */,
-				E82EF5EB28F7A90900026964 /* RankerView.swift */,
-				E80751F728FF620800E01107 /* TeamDetailView.swift */,
-				E8075203290053F100E01107 /* LineItemView.swift */,
-				E8075210290B866600E01107 /* VersionSelectorView.swift */,
+				E807521F291454CE00E01107 /* Team Detail */,
+				E807521E2914549400E01107 /* Advanced Stats */,
+				E807521D2914548D00E01107 /* Add Game */,
+				E807521C2914545800E01107 /* Games */,
+				E807521B2914544100E01107 /* Conferences */,
+				E807521A2914543100E01107 /* Rankings */,
+				E8075220291454F900E01107 /* Version */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,19 +336,18 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E82EF5F328FDFD7600026964 /* Converters  Filters and Sorters */ = {
+		E82EF5F328FDFD7600026964 /* Converters Filters and Sorters */ = {
 			isa = PBXGroup;
 			children = (
 				E807520129004CF900E01107 /* TeamsFilter.swift */,
 				E82EF5F428FDFE0600026964 /* GamesConverter.swift */,
 				E80751ED28FE5DA500E01107 /* ConferenceConverter.swift */,
 				E80751F528FF5D3400E01107 /* TeamConverter.swift */,
-				E80751FD28FF691200E01107 /* DataFormatter.swift */,
+				E807522329145CDD00E01107 /* Formatter */,
 				E807520529006A0300E01107 /* TeamsSorter.swift */,
-				E80751FF290039D800E01107 /* Ranker.swift */,
 				E8075212290EE8AB00E01107 /* GamesFilter.swift */,
 			);
-			path = "Converters  Filters and Sorters";
+			path = "Converters Filters and Sorters";
 			sourceTree = "<group>";
 		};
 		E84646D328EBE43C00192CB4 = {
@@ -304,7 +377,7 @@
 			children = (
 				E84646DF28EBE43C00192CB4 /* NCAAFTrackerApp.swift */,
 				E807520E290B834800E01107 /* Version.swift */,
-				E82EF5F328FDFD7600026964 /* Converters  Filters and Sorters */,
+				E82EF5F328FDFD7600026964 /* Converters Filters and Sorters */,
 				E81601B928F60EAD0030C346 /* Extensions */,
 				E816019228F37F6D0030C346 /* Views */,
 				E816018F28F37E970030C346 /* Models */,
@@ -582,6 +655,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80752222914564D00E01107 /* AdvancedStatsViewModel.swift in Sources */,
 				E816019828F3CCFE0030C346 /* GamesViewModel.swift in Sources */,
 				E8075211290B866600E01107 /* VersionSelectorView.swift in Sources */,
 				E816019A28F3CD300030C346 /* Game.swift in Sources */,
@@ -592,9 +666,11 @@
 				E807520229004CF900E01107 /* TeamsFilter.swift in Sources */,
 				E816019428F380CF0030C346 /* Team.swift in Sources */,
 				E80751FE28FF691200E01107 /* DataFormatter.swift in Sources */,
+				E80752172911B4E300E01107 /* TeamDetailLineItemsView.swift in Sources */,
 				E816018E28F37E800030C346 /* ConferencesViewModel.swift in Sources */,
 				E816019628F3CC720030C346 /* ConferencesView.swift in Sources */,
 				E81601A528F4D4950030C346 /* AddGameView.swift in Sources */,
+				E8075219291453D700E01107 /* AdvancedStatsView.swift in Sources */,
 				E82EF5EC28F7A90900026964 /* RankerView.swift in Sources */,
 				E84646E228EBE43C00192CB4 /* ContentView.swift in Sources */,
 				E8075204290053F100E01107 /* LineItemView.swift in Sources */,

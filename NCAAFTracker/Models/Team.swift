@@ -84,7 +84,7 @@ struct Team: Codable, Identifiable {
         }
         return score
     }
-    var scoreDifferential: Int?
+    var dbRankingScore: Int?
     
     var recordString: String {
         let tw = self.totalWins ?? 0
@@ -104,4 +104,45 @@ struct Team: Codable, Identifiable {
     }
     
     var games: [Game]?
+    
+    var strengthOfScheduleScore: Int? //Total Inverse Rankings
+    var strengthOfScheduleRank: Int?
+    
+    var totalPointsScored: Int?
+    var totalPointsAllowed: Int?
+    
+    var scoreDifferential: Int? {
+        guard let totalPointsScored = totalPointsScored, let totalPointsAllowed = totalPointsAllowed else { return nil }
+        return totalPointsScored - totalPointsAllowed
+    }
+    
+    var gamesPlayed: Int? {
+        guard let games = games else { return nil }
+        return games.count
+    }
+    
+    var ppgScored: Double? {
+        guard let totalPointsScored = totalPointsScored, let gamesPlayed = gamesPlayed else { return nil }
+        return round((Double(totalPointsScored) / Double(gamesPlayed)) * 10) / 10
+    }
+    
+    var ppgAllowed: Double? {
+        guard let totalPointsAllowed = totalPointsAllowed, let gamesPlayed = gamesPlayed else { return nil }
+        return round((Double(totalPointsAllowed) / Double(gamesPlayed)) * 10) / 10
+    }
+    
+    func advancedStatValue(sortType: Int) -> String{
+        switch sortType {
+        case 2:
+            return String(describing: self.strengthOfScheduleRank!)
+        case 3:
+            return String(describing: self.ppgScored!)
+        case 4:
+            return String(describing: self.ppgAllowed!)
+        case 5:
+            return String(describing: self.scoreDifferential!)
+        default:
+            return "UNKNOWN ERROR"
+        }
+    }
 }

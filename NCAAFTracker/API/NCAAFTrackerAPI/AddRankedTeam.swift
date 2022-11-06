@@ -20,8 +20,10 @@ extension NCAAFTrackerAPI {
     }
     
     func addRankedTeam(team: Team, completion: @escaping (String?) -> Void){
+        var teamToReturn = team
+        teamToReturn.dbRankingScore = team.rankingScore
         do {
-            try db.collection("WeeklyRankings").document("\(Version.shared.throughWeek)").collection("Rankings").document("\(String(describing: team.ranking!))").setData(from: team)
+            try db.collection("WeeklyRankings").document("\(Version.shared.throughWeek)").collection("Rankings").document("\(String(describing: team.id!))").setData(from: teamToReturn)
         } catch {
             completion("Error: not able to add ranked team")
         }

@@ -13,7 +13,7 @@ class Version: NSObject {
 
     var throughWeekMax = 15
     
-    var throughWeek = 8 {
+    var throughWeek = 9 {
         didSet {
             updatedThroughWeek()
         }
